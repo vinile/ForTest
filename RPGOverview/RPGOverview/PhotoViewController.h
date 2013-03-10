@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Level.h"
+#import "Credit.h"
 #import "DescViewController.h"
 
 @interface PhotoViewController : UIViewController
-@property (nonatomic, strong) Level *gotLevel;
+@property (nonatomic, strong) Credit *gotCredit;
 @property (weak, nonatomic) IBOutlet UIImageView *viewLeveliv;
 @property (weak, nonatomic) IBOutlet UIButton *showDescBtn;
 @end

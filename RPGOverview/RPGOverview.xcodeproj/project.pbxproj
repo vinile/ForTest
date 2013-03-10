@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		275E18FD16EBA5B0002285C3 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 275E18FC16EBA5B0002285C3 /* CardViewController.m */; };
 		275E190116EBBDE0002285C3 /* FlipCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 275E190016EBBDE0002285C3 /* FlipCardViewController.m */; };
+		27976AE116ECFAD200B286E9 /* Credit.m in Sources */ = {isa = PBXBuildFile; fileRef = 27976AE016ECFAD200B286E9 /* Credit.m */; };
+		27976AEA16ECFF5100B286E9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 27976AE716ECFF5100B286E9 /* icon.png */; };
+		27976AEB16ECFF5100B286E9 /* michael.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27976AE816ECFF5100B286E9 /* michael.jpg */; };
+		27976AEC16ECFF5100B286E9 /* vincent.png in Resources */ = {isa = PBXBuildFile; fileRef = 27976AE916ECFF5100B286E9 /* vincent.png */; };
 		27FCE19116E9044600EDD09D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FCE19016E9044600EDD09D /* UIKit.framework */; };
 		27FCE19316E9044600EDD09D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FCE19216E9044600EDD09D /* Foundation.framework */; };
 		27FCE19516E9044600EDD09D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FCE19416E9044600EDD09D /* CoreGraphics.framework */; };
@@ -22,13 +26,6 @@
 		27FCE1B516E907C100EDD09D /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FCE1B416E907C100EDD09D /* PhotoViewController.m */; };
 		27FCE1B816E907DF00EDD09D /* DescViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FCE1B716E907DF00EDD09D /* DescViewController.m */; };
 		27FCE1BB16E907F300EDD09D /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FCE1BA16E907F300EDD09D /* ContentViewController.m */; };
-		27FCE1BE16E9083200EDD09D /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FCE1BD16E9083200EDD09D /* Level.m */; };
-		27FCE1C516E911BD00EDD09D /* level1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27FCE1C016E911BD00EDD09D /* level1.jpg */; };
-		27FCE1C616E911BD00EDD09D /* level2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27FCE1C116E911BD00EDD09D /* level2.jpg */; };
-		27FCE1C716E911BD00EDD09D /* level3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27FCE1C216E911BD00EDD09D /* level3.jpg */; };
-		27FCE1C816E911BD00EDD09D /* level4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27FCE1C316E911BD00EDD09D /* level4.jpg */; };
-		27FCE1C916E911BD00EDD09D /* level5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27FCE1C416E911BD00EDD09D /* level5.jpg */; };
-		27FCE1CD16E91D2900EDD09D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 27FCE1CC16E91D2900EDD09D /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +33,11 @@
 		275E18FC16EBA5B0002285C3 /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
 		275E18FF16EBBDE0002285C3 /* FlipCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipCardViewController.h; sourceTree = "<group>"; };
 		275E190016EBBDE0002285C3 /* FlipCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipCardViewController.m; sourceTree = "<group>"; };
+		27976ADF16ECFAD200B286E9 /* Credit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Credit.h; path = Welcome/Model/Credit.h; sourceTree = "<group>"; };
+		27976AE016ECFAD200B286E9 /* Credit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Credit.m; path = Welcome/Model/Credit.m; sourceTree = "<group>"; };
+		27976AE716ECFF5100B286E9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		27976AE816ECFF5100B286E9 /* michael.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = michael.jpg; sourceTree = "<group>"; };
+		27976AE916ECFF5100B286E9 /* vincent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vincent.png; sourceTree = "<group>"; };
 		27FCE18D16E9044600EDD09D /* RPGOverview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPGOverview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27FCE19016E9044600EDD09D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		27FCE19216E9044600EDD09D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -56,14 +58,6 @@
 		27FCE1B716E907DF00EDD09D /* DescViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescViewController.m; sourceTree = "<group>"; };
 		27FCE1B916E907F300EDD09D /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
 		27FCE1BA16E907F300EDD09D /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
-		27FCE1BC16E9083200EDD09D /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
-		27FCE1BD16E9083200EDD09D /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level.m; sourceTree = "<group>"; };
-		27FCE1C016E911BD00EDD09D /* level1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = level1.jpg; sourceTree = "<group>"; };
-		27FCE1C116E911BD00EDD09D /* level2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = level2.jpg; sourceTree = "<group>"; };
-		27FCE1C216E911BD00EDD09D /* level3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = level3.jpg; sourceTree = "<group>"; };
-		27FCE1C316E911BD00EDD09D /* level4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = level4.jpg; sourceTree = "<group>"; };
-		27FCE1C416E911BD00EDD09D /* level5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = level5.jpg; sourceTree = "<group>"; };
-		27FCE1CC16E91D2900EDD09D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +83,47 @@
 				275E190016EBBDE0002285C3 /* FlipCardViewController.m */,
 			);
 			name = CardGame;
+			sourceTree = "<group>";
+		};
+		27976AE216ECFAE800B286E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27976ADF16ECFAD200B286E9 /* Credit.h */,
+				27976AE016ECFAD200B286E9 /* Credit.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		27976AE316ECFB2D00B286E9 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				27976AED16ED00B400B286E9 /* Credit */,
+				27976AE216ECFAE800B286E9 /* Model */,
+			);
+			name = Welcome;
+			sourceTree = "<group>";
+		};
+		27976AE616ECFF5100B286E9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				27976AE716ECFF5100B286E9 /* icon.png */,
+				27976AE816ECFF5100B286E9 /* michael.jpg */,
+				27976AE916ECFF5100B286E9 /* vincent.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		27976AED16ED00B400B286E9 /* Credit */ = {
+			isa = PBXGroup;
+			children = (
+				27FCE1B416E907C100EDD09D /* PhotoViewController.m */,
+				27FCE1B616E907DF00EDD09D /* DescViewController.h */,
+				27FCE1B716E907DF00EDD09D /* DescViewController.m */,
+				27FCE1B916E907F300EDD09D /* ContentViewController.h */,
+				27FCE1BA16E907F300EDD09D /* ContentViewController.m */,
+				27FCE1B316E907C100EDD09D /* PhotoViewController.h */,
+			);
+			name = Credit;
 			sourceTree = "<group>";
 		};
 		27FCE18416E9044600EDD09D = {
@@ -123,14 +158,7 @@
 		27FCE19616E9044600EDD09D /* RPGOverview */ = {
 			isa = PBXGroup;
 			children = (
-				27FCE1BC16E9083200EDD09D /* Level.h */,
-				27FCE1BD16E9083200EDD09D /* Level.m */,
-				27FCE1B916E907F300EDD09D /* ContentViewController.h */,
-				27FCE1BA16E907F300EDD09D /* ContentViewController.m */,
-				27FCE1B316E907C100EDD09D /* PhotoViewController.h */,
-				27FCE1B416E907C100EDD09D /* PhotoViewController.m */,
-				27FCE1B616E907DF00EDD09D /* DescViewController.h */,
-				27FCE1B716E907DF00EDD09D /* DescViewController.m */,
+				27976AE316ECFB2D00B286E9 /* Welcome */,
 				27FCE19716E9044600EDD09D /* Supporting Files */,
 			);
 			path = RPGOverview;
@@ -139,9 +167,9 @@
 		27FCE19716E9044600EDD09D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				27976AE616ECFF5100B286E9 /* images */,
 				27FCE19F16E9044600EDD09D /* AppDelegate.h */,
 				27FCE1A016E9044600EDD09D /* AppDelegate.m */,
-				27FCE1BF16E911BD00EDD09D /* Levels */,
 				27FCE19816E9044600EDD09D /* RPGOverview-Info.plist */,
 				27FCE19916E9044600EDD09D /* InfoPlist.strings */,
 				27FCE19C16E9044600EDD09D /* main.m */,
@@ -151,19 +179,6 @@
 				27FCE1A616E9044600EDD09D /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		27FCE1BF16E911BD00EDD09D /* Levels */ = {
-			isa = PBXGroup;
-			children = (
-				27FCE1CC16E91D2900EDD09D /* icon.png */,
-				27FCE1C016E911BD00EDD09D /* level1.jpg */,
-				27FCE1C116E911BD00EDD09D /* level2.jpg */,
-				27FCE1C216E911BD00EDD09D /* level3.jpg */,
-				27FCE1C316E911BD00EDD09D /* level4.jpg */,
-				27FCE1C416E911BD00EDD09D /* level5.jpg */,
-			);
-			path = Levels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,12 +237,9 @@
 				27FCE1A516E9044600EDD09D /* Default@2x.png in Resources */,
 				27FCE1A716E9044600EDD09D /* Default-568h@2x.png in Resources */,
 				27FCE1AA16E9044600EDD09D /* MainStoryboard.storyboard in Resources */,
-				27FCE1C516E911BD00EDD09D /* level1.jpg in Resources */,
-				27FCE1C616E911BD00EDD09D /* level2.jpg in Resources */,
-				27FCE1C716E911BD00EDD09D /* level3.jpg in Resources */,
-				27FCE1C816E911BD00EDD09D /* level4.jpg in Resources */,
-				27FCE1C916E911BD00EDD09D /* level5.jpg in Resources */,
-				27FCE1CD16E91D2900EDD09D /* icon.png in Resources */,
+				27976AEA16ECFF5100B286E9 /* icon.png in Resources */,
+				27976AEB16ECFF5100B286E9 /* michael.jpg in Resources */,
+				27976AEC16ECFF5100B286E9 /* vincent.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,9 +255,9 @@
 				27FCE1B516E907C100EDD09D /* PhotoViewController.m in Sources */,
 				27FCE1B816E907DF00EDD09D /* DescViewController.m in Sources */,
 				27FCE1BB16E907F300EDD09D /* ContentViewController.m in Sources */,
-				27FCE1BE16E9083200EDD09D /* Level.m in Sources */,
 				275E18FD16EBA5B0002285C3 /* CardViewController.m in Sources */,
 				275E190116EBBDE0002285C3 /* FlipCardViewController.m in Sources */,
+				27976AE116ECFAD200B286E9 /* Credit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

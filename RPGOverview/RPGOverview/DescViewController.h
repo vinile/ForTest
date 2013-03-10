@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Level.h"
+#import "Credit.h"
 
 @interface DescViewController : UIViewController
-@property (nonatomic, strong) Level *levelDesc;
+@property (nonatomic, strong)  Credit *creditInfo;
 @property (weak, nonatomic) IBOutlet UITextView *descText;
 - (IBAction)backBtn:(id)sender;
 @end

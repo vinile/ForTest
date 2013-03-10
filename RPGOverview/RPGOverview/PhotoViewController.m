@@ -13,13 +13,13 @@
 @end
 
 @implementation PhotoViewController
-@synthesize gotLevel;
+@synthesize gotCredit;
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([[segue identifier] isEqualToString:@"ModalToDesc"]) {
         DescViewController *dvc = [segue destinationViewController];
-        [dvc setLevelDesc:gotLevel];
+        [dvc setCreditInfo:gotCredit];
     }
 
 }
@@ -36,9 +36,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    UIImage *image = [UIImage imageNamed:[gotLevel file]];
+    UIImage *image = [UIImage imageNamed:[gotCredit file]];
     [self.viewLeveliv setImage:image];
-    [self setTitle:[gotLevel name]];
+    [self setTitle:[gotCredit name]];
     
 }
 

@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Level.h"
+#import "Credit.h"
 #import "PhotoViewController.h"
 
 @interface ContentViewController : UITableViewController

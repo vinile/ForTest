@@ -14,13 +14,13 @@
 
 @implementation ContentViewController
 
-NSMutableArray *levelArray;
+NSMutableArray *creditArray;
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([[segue identifier] isEqualToString:@"pushToPhoto"]) {
         PhotoViewController *pvc = [segue destinationViewController];
-        [pvc setGotLevel:[levelArray objectAtIndex:[self.tableView indexPathForSelectedRow].row]];
+        [pvc setGotCredit:[creditArray objectAtIndex:[self.tableView indexPathForSelectedRow].row]];
     }
 }
 
@@ -37,39 +37,21 @@ NSMutableArray *levelArray;
 {
     [super viewDidLoad];
     
-    levelArray = [[NSMutableArray alloc] init];
+    creditArray = [[NSMutableArray alloc] init];
 
-    Level *lvl;
+    Credit *credit;
     
-    lvl = [[Level alloc] init];
-    [lvl setName:@"level 1"];
-    [lvl setFile:@"level1.jpg"];
-    [lvl setInfo:@"Thanks for reading Level 1 details"];
-    [levelArray addObject:lvl];
+    credit = [[Credit alloc] init];
+    [credit setName:@"Vincent"];
+    [credit setFile:@"vincent.png"];
+    [credit setInfo:@"Game is Life, Life is Game.\n\nemail:  contact@vincent-zhang.com"];
+    [creditArray addObject:credit];
     
-    lvl = [[Level alloc] init];
-    [lvl setName:@"level 2"];
-    [lvl setFile:@"level2.jpg"];
-    [lvl setInfo:@"Thanks for reading Level 2 details"];
-    [levelArray addObject:lvl];
-    
-    lvl = [[Level alloc] init];
-    [lvl setName:@"level 3"];
-    [lvl setFile:@"level3.jpg"];
-    [lvl setInfo:@"Thanks for reading Level 3 details"];
-    [levelArray addObject:lvl];
-    
-    lvl = [[Level alloc] init];
-    [lvl setName:@"level 4"];
-    [lvl setFile:@"level4.jpg"];
-    [lvl setInfo:@"Thanks for reading Level 4 details"];
-    [levelArray addObject:lvl];
-    
-    lvl = [[Level alloc] init];
-    [lvl setName:@"level 5"];
-    [lvl setFile:@"level5.jpg"];
-    [lvl setInfo:@"Thanks for reading Level 5 details"];
-    [levelArray addObject:lvl];
+    credit = [[Credit alloc] init];
+    [credit setName:@"Michael"];
+    [credit setFile:@"michael.jpg"];
+    [credit setInfo:@"Learning from the best.\n\nemail:  ieboxie@gmail.com"];
+    [creditArray addObject:credit];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -97,7 +79,7 @@ NSMutableArray *levelArray;
 {
 
     // Return the number of rows in the section.
-    return [levelArray count];
+    return [creditArray count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -106,7 +88,7 @@ NSMutableArray *levelArray;
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
-    [cell.textLabel setText:[[levelArray objectAtIndex:indexPath.row] name]];
+    [cell.textLabel setText:[[creditArray objectAtIndex:indexPath.row] name]];
 //    Level *lvl = [[Level alloc] init];
 //    lvl = [levelArray objectAtIndex:indexPath.row];
 //    [cell.textLabel setText:[lvl name]];

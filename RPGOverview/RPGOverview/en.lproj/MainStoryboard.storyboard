@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="b5X-cQ-HKW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C3012" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="b5X-cQ-HKW">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -13,8 +13,11 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zuV-xg-Lmt">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="ZBG-g4-zDx"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Open">
+                                <state key="normal" title="Credit">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -25,18 +28,21 @@
                                     <segue destination="Maq-JM-df5" kind="push" id="ASO-VZ-77s"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="RPG Overview" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GbC-Op-Vui">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Welcome to RPG Game" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GbC-Op-Vui">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="lqE-nT-zeq"/>
-                                    <constraint firstAttribute="width" constant="147" id="uh7-5P-hBK"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K6Y-LQ-WjL">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="fTb-gI-t6R"/>
+                                    <constraint firstAttribute="width" constant="105" id="iuv-jd-KgH"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Card Game">
+                                <state key="normal" title="Start">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -50,12 +56,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="GbC-Op-Vui" firstAttribute="top" secondItem="YuT-ap-tsu" secondAttribute="top" constant="135" id="2gZ-Nm-VuJ"/>
+                            <constraint firstAttribute="bottom" secondItem="zuV-xg-Lmt" secondAttribute="bottom" constant="53" id="Bpg-TY-iK6"/>
                             <constraint firstItem="K6Y-LQ-WjL" firstAttribute="leading" secondItem="zuV-xg-Lmt" secondAttribute="leading" type="default" id="DzH-On-i8g"/>
-                            <constraint firstAttribute="bottom" secondItem="K6Y-LQ-WjL" secondAttribute="bottom" constant="30" id="Xlv-yn-h52"/>
-                            <constraint firstItem="GbC-Op-Vui" firstAttribute="leading" secondItem="YuT-ap-tsu" secondAttribute="leading" constant="94" id="bpB-J2-QeY"/>
-                            <constraint firstAttribute="bottom" secondItem="zuV-xg-Lmt" secondAttribute="bottom" constant="92" id="uLV-1S-2Si"/>
-                            <constraint firstItem="K6Y-LQ-WjL" firstAttribute="centerX" secondItem="YuT-ap-tsu" secondAttribute="centerX" type="default" id="v9O-lz-iyn"/>
+                            <constraint firstItem="GbC-Op-Vui" firstAttribute="top" secondItem="YuT-ap-tsu" secondAttribute="top" constant="86" id="Lsl-wU-vfs"/>
+                            <constraint firstItem="zuV-xg-Lmt" firstAttribute="top" secondItem="K6Y-LQ-WjL" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="PgK-T4-71a"/>
+                            <constraint firstItem="K6Y-LQ-WjL" firstAttribute="centerX" secondItem="GbC-Op-Vui" secondAttribute="centerX" type="default" id="WJY-Gi-C3K"/>
+                            <constraint firstItem="K6Y-LQ-WjL" firstAttribute="centerX" secondItem="YuT-ap-tsu" secondAttribute="centerX" type="default" id="vLl-x5-xjE"/>
                             <constraint firstItem="K6Y-LQ-WjL" firstAttribute="trailing" secondItem="zuV-xg-Lmt" secondAttribute="trailing" type="default" id="xax-iM-0xv"/>
                         </constraints>
                     </view>
@@ -257,35 +263,6 @@
             <point key="canvasLocation" x="-361" y="-337"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="CardViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CardViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="flipCard:" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="flipLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="ContentViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ContentViewController.h"/>
-        </class>
-        <class className="DescViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DescViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="backBtn:"/>
-                <relationship kind="outlet" name="descText" candidateClass="UITextView"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="PhotoViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/PhotoViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="showDescBtn" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="viewLeveliv" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

@@ -13,7 +13,7 @@
 @end
 
 @implementation DescViewController
-@synthesize levelDesc;
+@synthesize creditInfo;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -28,7 +28,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    [[self descText] setText:levelDesc.info];
+    [[self descText] setText:creditInfo.info];
 }
 
 - (void)didReceiveMemoryWarning
