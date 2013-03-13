@@ -1,18 +1,19 @@
 //
-//  FlipCardViewController.m
+//  DescViewController.m
 //  RPGOverview
 //
-//  Created by mike on 3/10/13.
+//  Created by mike on 3/8/13.
 //  Copyright (c) 2013 mike. All rights reserved.
 //
 
-#import "FlipCardViewController.h"
+#import "DescViewController.h"
 
-@interface FlipCardViewController ()
+@interface DescViewController ()
 
 @end
 
-@implementation FlipCardViewController
+@implementation DescViewController
+@synthesize creditInfo;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,6 +28,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    [[self descText] setText:creditInfo.info];
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,4 +37,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)backBtn:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 @end

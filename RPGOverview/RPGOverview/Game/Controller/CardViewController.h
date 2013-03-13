@@ -1,5 +1,5 @@
 //
-//  FlipCardViewController.h
+//  CardViewController.h
 //  RPGOverview
 //
 //  Created by mike on 3/10/13.
@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface FlipCardViewController : UIViewController
+ 
+@interface CardViewController : UIViewController
 
 @end

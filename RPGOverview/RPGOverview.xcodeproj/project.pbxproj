@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		275E18FD16EBA5B0002285C3 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 275E18FC16EBA5B0002285C3 /* CardViewController.m */; };
-		275E190116EBBDE0002285C3 /* FlipCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 275E190016EBBDE0002285C3 /* FlipCardViewController.m */; };
-		27976AE116ECFAD200B286E9 /* Credit.m in Sources */ = {isa = PBXBuildFile; fileRef = 27976AE016ECFAD200B286E9 /* Credit.m */; };
+		271CD97A16EF7113008A01F4 /* Skill.m in Sources */ = {isa = PBXBuildFile; fileRef = 271CD97916EF7113008A01F4 /* Skill.m */; };
+		271CD97F16EF7239008A01F4 /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = 271CD97E16EF7239008A01F4 /* Hero.m */; };
+		271CD98216EF72F4008A01F4 /* BattleFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 271CD98116EF72F4008A01F4 /* BattleFieldViewController.m */; };
+		278163B116F022A200E6A7CB /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 278163AC16F022A200E6A7CB /* ContentViewController.m */; };
+		278163B216F022A200E6A7CB /* DescViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 278163AE16F022A200E6A7CB /* DescViewController.m */; };
+		278163B316F022A200E6A7CB /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 278163B016F022A200E6A7CB /* PhotoViewController.m */; };
+		278163B616F0234600E6A7CB /* Credit.m in Sources */ = {isa = PBXBuildFile; fileRef = 278163B516F0234600E6A7CB /* Credit.m */; };
 		27976AEA16ECFF5100B286E9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 27976AE716ECFF5100B286E9 /* icon.png */; };
 		27976AEB16ECFF5100B286E9 /* michael.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27976AE816ECFF5100B286E9 /* michael.jpg */; };
 		27976AEC16ECFF5100B286E9 /* vincent.png in Resources */ = {isa = PBXBuildFile; fileRef = 27976AE916ECFF5100B286E9 /* vincent.png */; };
@@ -23,18 +27,23 @@
 		27FCE1A516E9044600EDD09D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27FCE1A416E9044600EDD09D /* Default@2x.png */; };
 		27FCE1A716E9044600EDD09D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27FCE1A616E9044600EDD09D /* Default-568h@2x.png */; };
 		27FCE1AA16E9044600EDD09D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27FCE1A816E9044600EDD09D /* MainStoryboard.storyboard */; };
-		27FCE1B516E907C100EDD09D /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FCE1B416E907C100EDD09D /* PhotoViewController.m */; };
-		27FCE1B816E907DF00EDD09D /* DescViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FCE1B716E907DF00EDD09D /* DescViewController.m */; };
-		27FCE1BB16E907F300EDD09D /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FCE1BA16E907F300EDD09D /* ContentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		275E18FB16EBA5B0002285C3 /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
-		275E18FC16EBA5B0002285C3 /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
-		275E18FF16EBBDE0002285C3 /* FlipCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipCardViewController.h; sourceTree = "<group>"; };
-		275E190016EBBDE0002285C3 /* FlipCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipCardViewController.m; sourceTree = "<group>"; };
-		27976ADF16ECFAD200B286E9 /* Credit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Credit.h; path = Welcome/Model/Credit.h; sourceTree = "<group>"; };
-		27976AE016ECFAD200B286E9 /* Credit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Credit.m; path = Welcome/Model/Credit.m; sourceTree = "<group>"; };
+		271CD97816EF7113008A01F4 /* Skill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Skill.h; path = Game/Model/Skill.h; sourceTree = "<group>"; };
+		271CD97916EF7113008A01F4 /* Skill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Skill.m; path = Game/Model/Skill.m; sourceTree = "<group>"; };
+		271CD97D16EF7239008A01F4 /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Hero.h; path = Game/Model/Hero.h; sourceTree = "<group>"; };
+		271CD97E16EF7239008A01F4 /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Hero.m; path = Game/Model/Hero.m; sourceTree = "<group>"; };
+		271CD98016EF72F4008A01F4 /* BattleFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BattleFieldViewController.h; path = Game/Controller/BattleFieldViewController.h; sourceTree = "<group>"; };
+		271CD98116EF72F4008A01F4 /* BattleFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BattleFieldViewController.m; path = Game/Controller/BattleFieldViewController.m; sourceTree = "<group>"; };
+		278163AB16F022A200E6A7CB /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContentViewController.h; path = Controller/ContentViewController.h; sourceTree = "<group>"; };
+		278163AC16F022A200E6A7CB /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContentViewController.m; path = Controller/ContentViewController.m; sourceTree = "<group>"; };
+		278163AD16F022A200E6A7CB /* DescViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DescViewController.h; path = Controller/DescViewController.h; sourceTree = "<group>"; };
+		278163AE16F022A200E6A7CB /* DescViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DescViewController.m; path = Controller/DescViewController.m; sourceTree = "<group>"; };
+		278163AF16F022A200E6A7CB /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoViewController.h; path = Controller/PhotoViewController.h; sourceTree = "<group>"; };
+		278163B016F022A200E6A7CB /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoViewController.m; path = Controller/PhotoViewController.m; sourceTree = "<group>"; };
+		278163B416F0234600E6A7CB /* Credit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Credit.h; path = Credit/Credit.h; sourceTree = "<group>"; };
+		278163B516F0234600E6A7CB /* Credit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Credit.m; path = Credit/Credit.m; sourceTree = "<group>"; };
 		27976AE716ECFF5100B286E9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		27976AE816ECFF5100B286E9 /* michael.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = michael.jpg; sourceTree = "<group>"; };
 		27976AE916ECFF5100B286E9 /* vincent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vincent.png; sourceTree = "<group>"; };
@@ -52,12 +61,6 @@
 		27FCE1A416E9044600EDD09D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		27FCE1A616E9044600EDD09D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		27FCE1A916E9044600EDD09D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		27FCE1B316E907C100EDD09D /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
-		27FCE1B416E907C100EDD09D /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
-		27FCE1B616E907DF00EDD09D /* DescViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescViewController.h; sourceTree = "<group>"; };
-		27FCE1B716E907DF00EDD09D /* DescViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescViewController.m; sourceTree = "<group>"; };
-		27FCE1B916E907F300EDD09D /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
-		27FCE1BA16E907F300EDD09D /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,33 +77,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		275E18FE16EBA5D4002285C3 /* CardGame */ = {
+		271CD97B16EF711C008A01F4 /* Game */ = {
 			isa = PBXGroup;
 			children = (
-				275E18FB16EBA5B0002285C3 /* CardViewController.h */,
-				275E18FC16EBA5B0002285C3 /* CardViewController.m */,
-				275E18FF16EBBDE0002285C3 /* FlipCardViewController.h */,
-				275E190016EBBDE0002285C3 /* FlipCardViewController.m */,
+				271CD98316EF73A5008A01F4 /* Controller */,
+				271CD97C16EF7125008A01F4 /* Model */,
 			);
-			name = CardGame;
+			name = Game;
 			sourceTree = "<group>";
 		};
-		27976AE216ECFAE800B286E9 /* Model */ = {
+		271CD97C16EF7125008A01F4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				27976ADF16ECFAD200B286E9 /* Credit.h */,
-				27976AE016ECFAD200B286E9 /* Credit.m */,
+				271CD97D16EF7239008A01F4 /* Hero.h */,
+				271CD97E16EF7239008A01F4 /* Hero.m */,
+				271CD97816EF7113008A01F4 /* Skill.h */,
+				271CD97916EF7113008A01F4 /* Skill.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
 		};
-		27976AE316ECFB2D00B286E9 /* Welcome */ = {
+		271CD98316EF73A5008A01F4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				27976AED16ED00B400B286E9 /* Credit */,
-				27976AE216ECFAE800B286E9 /* Model */,
+				271CD98016EF72F4008A01F4 /* BattleFieldViewController.h */,
+				271CD98116EF72F4008A01F4 /* BattleFieldViewController.m */,
 			);
-			name = Welcome;
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		27976AE316ECFB2D00B286E9 /* Credit */ = {
+			isa = PBXGroup;
+			children = (
+				27976AED16ED00B400B286E9 /* Controller */,
+				278163B416F0234600E6A7CB /* Credit.h */,
+				278163B516F0234600E6A7CB /* Credit.m */,
+			);
+			name = Credit;
 			sourceTree = "<group>";
 		};
 		27976AE616ECFF5100B286E9 /* images */ = {
@@ -113,25 +126,25 @@
 			path = images;
 			sourceTree = "<group>";
 		};
-		27976AED16ED00B400B286E9 /* Credit */ = {
+		27976AED16ED00B400B286E9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				27FCE1B416E907C100EDD09D /* PhotoViewController.m */,
-				27FCE1B616E907DF00EDD09D /* DescViewController.h */,
-				27FCE1B716E907DF00EDD09D /* DescViewController.m */,
-				27FCE1B916E907F300EDD09D /* ContentViewController.h */,
-				27FCE1BA16E907F300EDD09D /* ContentViewController.m */,
-				27FCE1B316E907C100EDD09D /* PhotoViewController.h */,
+				278163AB16F022A200E6A7CB /* ContentViewController.h */,
+				278163AC16F022A200E6A7CB /* ContentViewController.m */,
+				278163AD16F022A200E6A7CB /* DescViewController.h */,
+				278163AE16F022A200E6A7CB /* DescViewController.m */,
+				278163AF16F022A200E6A7CB /* PhotoViewController.h */,
+				278163B016F022A200E6A7CB /* PhotoViewController.m */,
 			);
-			name = Credit;
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		27FCE18416E9044600EDD09D = {
 			isa = PBXGroup;
 			children = (
 				27FCE1A816E9044600EDD09D /* MainStoryboard.storyboard */,
-				275E18FE16EBA5D4002285C3 /* CardGame */,
 				27FCE19616E9044600EDD09D /* RPGOverview */,
+				27FCE19716E9044600EDD09D /* Supporting Files */,
 				27FCE18F16E9044600EDD09D /* Frameworks */,
 				27FCE18E16E9044600EDD09D /* Products */,
 			);
@@ -158,8 +171,8 @@
 		27FCE19616E9044600EDD09D /* RPGOverview */ = {
 			isa = PBXGroup;
 			children = (
-				27976AE316ECFB2D00B286E9 /* Welcome */,
-				27FCE19716E9044600EDD09D /* Supporting Files */,
+				27976AE316ECFB2D00B286E9 /* Credit */,
+				271CD97B16EF711C008A01F4 /* Game */,
 			);
 			path = RPGOverview;
 			sourceTree = "<group>";
@@ -179,6 +192,7 @@
 				27FCE1A616E9044600EDD09D /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			path = RPGOverview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,12 +266,13 @@
 			files = (
 				27FCE19D16E9044600EDD09D /* main.m in Sources */,
 				27FCE1A116E9044600EDD09D /* AppDelegate.m in Sources */,
-				27FCE1B516E907C100EDD09D /* PhotoViewController.m in Sources */,
-				27FCE1B816E907DF00EDD09D /* DescViewController.m in Sources */,
-				27FCE1BB16E907F300EDD09D /* ContentViewController.m in Sources */,
-				275E18FD16EBA5B0002285C3 /* CardViewController.m in Sources */,
-				275E190116EBBDE0002285C3 /* FlipCardViewController.m in Sources */,
-				27976AE116ECFAD200B286E9 /* Credit.m in Sources */,
+				271CD97A16EF7113008A01F4 /* Skill.m in Sources */,
+				271CD97F16EF7239008A01F4 /* Hero.m in Sources */,
+				271CD98216EF72F4008A01F4 /* BattleFieldViewController.m in Sources */,
+				278163B116F022A200E6A7CB /* ContentViewController.m in Sources */,
+				278163B216F022A200E6A7CB /* DescViewController.m in Sources */,
+				278163B316F022A200E6A7CB /* PhotoViewController.m in Sources */,
+				278163B616F0234600E6A7CB /* Credit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
