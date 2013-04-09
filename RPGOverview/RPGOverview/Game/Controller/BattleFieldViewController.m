@@ -47,7 +47,7 @@
     self.enemySkill.attack = 50;
     self.enemySkill.defence = 50;
     
-    
+    //same changes
 }
 
 - (void)didReceiveMemoryWarning
