@@ -47,7 +47,11 @@
     self.enemySkill.attack = 50;
     self.enemySkill.defence = 50;
     
+<<<<<<< HEAD
     self.enemySkill.mpCost = 23;
+=======
+    //same changes
+>>>>>>> f72049b4ee87b206596365046f76d9a0fbcf59bf
 }
 
 - (void)didReceiveMemoryWarning
